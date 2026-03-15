@@ -3,20 +3,24 @@
 ---
 
 
+![avatar|100](/img/user/assets/avatar.jpg)
+
 # 👋 Hi, I'm Kirill
 
-**Senior Platform & DevOps Engineer** · 17 years in IT · Based in Moscow
+**AI + DevOps Engineer · AI Transformation Advocate** · 17 years in IT · Saint-Petersburg
 
-I build bridges between infrastructure and product teams — creating platforms that make developers faster, systems more reliable, and operations less painful.
+I help teams and companies navigate the shift from traditional infrastructure to AI-native systems — where LLMs, agents, and platforms work together.
+
+Currently building [PRGate](https://github.com/prgate/prgate) — an AI-powered code review system — and serving as CTO at [Aura X Capital](https://kazakov.xyz).
 
 ---
 
 ## What I do
 
+- 🤖 **AI Transformation** — integrating LLMs into engineering workflows, AI agents, RAG systems
 - 🏗️ **Platform Engineering** — Kubernetes, AWS, Terraform, CI/CD for 100+ microservices
-- 🔭 **Observability** — enterprise-grade stacks from scratch
-- 🤖 **AI Infrastructure** — CTO at [Aura X Capital](https://kazakov.xyz), building for 350k+ users
-- 📚 **Teaching** — OTUS instructor, 500+ students, 30+ technical publications
+- 🔭 **Observability** — enterprise-grade stacks, SRE practices
+- 🛠️ **Open Source** — [PRGate](https://github.com/prgate/prgate): AI code review for GitHub
 
 **Certifications:** CKA · AWS SAA · GCP Professional Cloud Architect
 
@@ -24,12 +28,12 @@ I build bridges between infrastructure and product teams — creating platforms 
 
 ## This Garden
 
-A collection of notes on things I'm learning, building, and thinking about.
+Notes on AI, infrastructure, and the intersection of both.
 
 ### 🗂️ Topics
 - [[Knowledge/AI/model-selection\|AI & LLMs]] — model selection, routing, cost optimization
 - **Infrastructure** — Kubernetes, platform patterns, reliability
-- **Productivity** — tools, workflows, second brain
+- **Productivity** — tools, second brain, workflows
 
 ---
 

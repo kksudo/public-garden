@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/ai/model-selection/","title":"Руководство по выбору AI моделей","tags":["ai","модели","omniroute","openclaw","public"],"dgShowBacklinks":true,"dgShowLocalGraph":true,"dgShowFileTree":true,"dgEnableSearch":true,"dgShowToc":true,"dgShowTags":true}
+{"dg-publish":true,"permalink":"/knowledge/ai/model-selection/","title":"Руководство по выбору AI моделей","tags":["ai","модели","omniroute","openclaw","public"],"dgEnableSearch":true,"dgShowTags":true}
 ---
 
 

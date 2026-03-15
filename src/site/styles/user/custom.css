@@ -19,3 +19,17 @@ code {
   border-radius: 4px;
   padding: 0.1em 0.4em;
 }
+
+/* Скрыть названия папок в file tree */
+.filetree-folder-title {
+  display: none;
+}
+
+.filetree-folder-icon {
+  display: none;
+}
+
+/* Убрать отступ от папок, показывать только файлы */
+.filetree-folder-content {
+  padding-left: 0 !important;
+}

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/index/","title":"Kirill Kazakov — Digital Garden","pinned":true,"tags":["public","home","gardenEntry"]}
+{"dg-publish":true,"permalink":"/index/","title":"Kirill Kazakov — Digital Garden","pinned":true,"tags":["public","home","gardenEntry"],"dgShowBacklinks":true,"dgShowLocalGraph":true,"dgShowInlineTitle":true,"dgShowFileTree":true,"dgEnableSearch":true,"dgShowToc":true,"dgLinkPreview":true,"dgShowTags":true}
 ---
 
 

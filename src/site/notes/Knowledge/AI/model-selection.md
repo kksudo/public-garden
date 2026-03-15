@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/ai/model-selection/","title":"Руководство по выбору AI моделей","tags":["ai","модели","omniroute","openclaw","public","gardenEntry"]}
+{"dg-publish":true,"permalink":"/knowledge/ai/model-selection/","title":"Руководство по выбору AI моделей","tags":["ai","модели","omniroute","openclaw","public"]}
 ---
 
 

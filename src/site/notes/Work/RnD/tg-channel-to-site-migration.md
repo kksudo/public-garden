@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"permalink":"/work/rn-d/tg-channel-to-site-migration/","title":"TG Channel → Site Migration — Service Idea","date":"2026-03-16","tags":["rnd","services","telegram","ecommerce","webdev","draft"],"status":"draft","related":["[[Work/RnD/private-ai-stack-for-clients-draft]]","[[Work/RnD/private-ai-stack-narrow-utps]]"],"dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
+{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"permalink":"/work/rn-d/tg-channel-to-site-migration/","title":"TG Channel → Site Migration — Service Idea","date":"2026-03-16","tags":["rnd","services","telegram","ecommerce","webdev","draft"],"status":"draft","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 

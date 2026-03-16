@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/work/rn-d/ai-chief-of-staff-corporate-jarvis/","title":"AI Chief of Staff — идея корпоративного Джарвиса","tags":["public","rnd","ai","positioning","offers","executive","chief-of-staff"],"dgEnableSearch":true,"dgShowTags":true}
+{"title":"AI Chief of Staff — идея корпоративного Джарвиса","date":"2026-03-16","tags":["public","rnd","ai","positioning","offers","executive","chief-of-staff"],"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"url":"https://notes.kazakov.xyz/work/rnd/ai-chief-of-staff-corporate-jarvis/","permalink":"/work/rn-d/ai-chief-of-staff-corporate-jarvis/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 

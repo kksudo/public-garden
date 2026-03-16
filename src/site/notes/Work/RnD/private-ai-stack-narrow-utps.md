@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/work/rn-d/private-ai-stack-narrow-utps/","title":"Private AI Stack — Узкие УТП","tags":["rnd","ai","services","utp","openclaw","omniroute","rag","draft","public"],"dgEnableSearch":true,"dgShowTags":true}
+{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"title":"Private AI Stack — Узкие УТП","date":"2026-03-16","tags":["rnd","ai","services","utp","openclaw","omniroute","rag","draft","public"],"status":"draft","url":"https://notes.kazakov.xyz/work/rnd/private-ai-stack-narrow-utps/","related":["[[Work/RnD/private-ai-stack-for-clients-draft\|Work/RnD/private-ai-stack-for-clients-draft]]","[[Knowledge/AI/model-selection\|Knowledge/AI/model-selection]]"],"permalink":"/work/rn-d/private-ai-stack-narrow-utps/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 
@@ -212,8 +212,8 @@
 
 ## Related notes
 
-- [[Work/RnD/private-ai-stack-for-clients-draft\|Work/RnD/private-ai-stack-for-clients-draft]]
-- [[Knowledge/AI/model-selection\|Knowledge/AI/model-selection]]
+- [[Work/RnD/private-ai-stack-for-clients-draft]]
+- [[Knowledge/AI/model-selection]]
 - [[Knowledge/AI/obsidian-openclaw-integration\|Knowledge/AI/obsidian-openclaw-integration]]
 
 ---

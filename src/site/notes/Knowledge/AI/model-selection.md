@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowledge/ai/model-selection/","title":"Руководство по выбору AI моделей","tags":["ai","модели","omniroute","openclaw","public"],"dgEnableSearch":true,"dgShowTags":true}
+{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"title":"Руководство по выбору AI моделей","date":"2026-03-13","tags":["ai","модели","omniroute","openclaw","public"],"url":"https://notes.kazakov.xyz/knowledge/ai/model-selection/","permalink":"/knowledge/ai/model-selection/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 

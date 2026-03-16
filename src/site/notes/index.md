@@ -38,25 +38,14 @@ This site is a public notebook: a mix of evergreen notes, experiments, and rough
 <!-- AUTO-NAV-START -->
 ## Browse Notes
 
-_This section is generated from notes with `dg-publish: true`._
-
 ### Recent public notes
-- [[Work/RnD/ai-chief-of-staff-corporate-jarvis\|AI Chief of Staff — идея корпоративного Джарвиса]]
-- [[Work/RnD/private-ai-stack-narrow-utps\|Private AI Stack — Узкие УТП]]
-- [[Work/RnD/private-ai-stack-for-clients-draft\|Private AI Stack for Clients — Draft]]
-- [[Work/RnD/tg-channel-to-site-migration\|TG Channel → Site Migration — Service Idea]]
-- [[Knowledge/AI/model-selection\|Руководство по выбору AI моделей]]
+- 2026-03-16 [[Work/RnD/ai-chief-of-staff-corporate-jarvis\|AI Chief of Staff — идея корпоративного Джарвиса]]
+- 2026-03-16 [[Knowledge/Infrastructure/Netis N6 Router/PUBLIC-GUIDE\|OpenWrt на Netis N6: DNS, VPN по доменам, обход DPI и стабильность]]
+- 2026-03-16 [[Work/RnD/private-ai-stack-narrow-utps\|Private AI Stack — Узкие УТП]]
+- 2026-03-16 [[Work/RnD/private-ai-stack-for-clients-draft\|Private AI Stack for Clients — Draft]]
+- 2026-03-16 [[Work/RnD/tg-channel-to-site-migration\|TG Channel → Site Migration — Service Idea]]
 
 ### By area
-
-#### AI
-- [[Knowledge/AI/model-selection\|Руководство по выбору AI моделей]]
-
-#### R&D
-- [[Work/RnD/ai-chief-of-staff-corporate-jarvis\|AI Chief of Staff — идея корпоративного Джарвиса]]
-- [[Work/RnD/private-ai-stack-narrow-utps\|Private AI Stack — Узкие УТП]]
-- [[Work/RnD/private-ai-stack-for-clients-draft\|Private AI Stack for Clients — Draft]]
-- [[Work/RnD/tg-channel-to-site-migration\|TG Channel → Site Migration — Service Idea]]
 
 ### How to use this site
 - Use search if you know the topic

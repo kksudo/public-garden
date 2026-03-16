@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/work/rn-d/private-ai-stack-for-clients-draft/","title":"Private AI Stack for Clients — Draft","tags":["ai","services","rag","automation","openclaw","omniroute","draft","public"],"dgEnableSearch":true,"dgShowToc":true,"dgShowTags":true}
+{"dg-publish":true,"permalink":"/work/rn-d/private-ai-stack-for-clients-draft/","title":"Private AI Stack for Clients — Draft","pinned":true,"tags":["ai","services","rag","automation","openclaw","omniroute","draft","public","gardenEntry"]}
 ---
 
 

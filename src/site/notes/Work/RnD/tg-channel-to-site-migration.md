@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"permalink":"/work/rn-d/tg-channel-to-site-migration/","title":"TG Channel → Site Migration — Service Idea","date":"2026-03-16","tags":["rnd","services","telegram","ecommerce","webdev","draft"],"status":"draft","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
+{"dg-publish":true,"dg-permalink":"rnd/tg-to-site/","url":"https://notes.kazakov.xyz/rnd/tg-to-site/","dg-enable-search":true,"dg-show-tags":true,"title":"TG Channel → Site Migration — Service Idea","date":"2026-03-16","tags":["rnd","services","telegram","ecommerce","webdev","draft"],"status":"draft","permalink":"/rnd/tg-to-site/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 

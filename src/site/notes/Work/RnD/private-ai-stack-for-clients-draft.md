@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"title":"Private AI Stack for Clients — Draft","date":"2026-03-16","tags":["ai","services","rag","automation","openclaw","omniroute","public"],"status":"draft","url":"https://notes.kazakov.xyz/work/rnd/private-ai-stack-for-clients-draft/","permalink":"/work/rn-d/private-ai-stack-for-clients-draft/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
+{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"title":"Private AI Stack for Clients — Draft","date":"2026-03-16","tags":["ai","services","rag","automation","openclaw","omniroute","public"],"status":"draft","url":"https://notes.kazakov.xyz/rnd/ai-stack-clients/","permalink":"/work/rn-d/private-ai-stack-for-clients-draft/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 

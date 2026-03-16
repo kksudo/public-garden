@@ -64,5 +64,6 @@ This site is a public notebook: a mix of evergreen notes, experiments, and rough
 ✍️ [Medium](https://kksudo.medium.com) · 
 💼 [LinkedIn](https://linkedin.com/in/kazakovk) · 
 🐙 [GitHub](https://github.com/kksudo)
+
 ---
 *Дисклеймер / Disclaimer: material is published for informational and research purposes. [Полный отказ от ответственности / Full disclaimer](https://notes.kazakov.xyz/legal/disclaimer/).*

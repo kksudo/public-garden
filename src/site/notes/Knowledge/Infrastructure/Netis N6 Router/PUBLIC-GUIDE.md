@@ -184,5 +184,6 @@ Context: This document describes an OpenWrt 24.10.x setup on a Netis N6 router (
 Task: Propose and, if needed, implement additional optimizations for this hardware and stack. Consider: RAM and tmpfs limits (/tmp is in RAM), USB flash wear, DNS stability when the proxy fails, cascading restarts, netlink/nft load. For each optimization briefly explain why it is needed and what effect it has. Use this guide’s sections “Стабильность”, “DNS”, “b4 и российские сайты” as the format template: describe the measure + a “Зачем” (why) block. Follow the practices from the guide (sysctl, staggered cron, checking free space before restarting dnsmasq, cache.db monitoring, noatime/commit on USB, log size thresholds). Do not change the overall logic (DNS independent of VPN, domains in UCI, b4_domestic, etc.) — only tuning, monitoring, and safeguards.
 ```
 </details>
+
 ---
 *Дисклеймер / Disclaimer: material is published for informational and research purposes. [Полный отказ от ответственности / Full disclaimer](https://notes.kazakov.xyz/legal/disclaimer/).*

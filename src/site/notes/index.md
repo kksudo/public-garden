@@ -35,26 +35,11 @@ Currently building [PRGate](https://github.com/prgate/prgate) — an AI-powered 
 
 This site is a public notebook: a mix of evergreen notes, experiments, and rough R&D drafts.
 
+<!-- AUTO-NAV-START -->
 ## Browse Notes
 
-### Start here
-- [[Knowledge/AI/model-selection\|AI & LLMs]] — model selection, routing, and practical defaults
-- [[Work/RnD/private-ai-stack-for-clients-draft\|Private AI Stack for Clients]] — a draft service concept for private AI deployments
-- [[Work/RnD/private-ai-stack-narrow-utps\|Private AI Stack: Narrow UTPs]] — narrower go-to-market angles and offers
-
-### Recent public drafts
-- [[Work/RnD/ai-chief-of-staff-corporate-jarvis\|AI Chief of Staff]] — positioning a corporate "Jarvis" as an executive operating layer
-- [[Work/RnD/tg-channel-to-site-migration\|Telegram Channel -> Site Migration]] — a service idea for turning TG channels into sites/shops
-
-### How to use this site
-- Use search if you know the topic
-- Start from a note above and follow wiki-links
-- Expect some pages to be polished notes and others to be working drafts
-
-### 🗂️ Topics
-- [[Knowledge/AI/model-selection\|AI & LLMs]] — model selection, routing, cost optimization
-- **Infrastructure** — networking, reliability, platform patterns
-- **Productivity** — tools, workflows, second brain practices
+_Navigation is generated from notes with `dg-publish: true`._
+<!-- AUTO-NAV-END -->
 
 ---
 

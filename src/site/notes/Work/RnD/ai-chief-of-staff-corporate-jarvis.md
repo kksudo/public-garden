@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/work/rn-d/ai-chief-of-staff-corporate-jarvis/","title":"AI Chief of Staff — идея корпоративного Джарвиса","tags":["public","ai","positioning","offers","executive","chief-of-staff"],"dgEnableSearch":true,"dgShowTags":true}
+{"dg-publish":true,"permalink":"/work/rn-d/ai-chief-of-staff-corporate-jarvis/","title":"AI Chief of Staff — идея корпоративного Джарвиса","tags":["public","rnd","ai","positioning","offers","executive","chief-of-staff"],"dgEnableSearch":true,"dgShowTags":true}
 ---
 
 

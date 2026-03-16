@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/work/rn-d/private-ai-stack-narrow-utps/","title":"Private AI Stack — Узкие УТП","tags":["ai","services","utp","openclaw","omniroute","rag","draft","public"],"dgEnableSearch":true,"dgShowTags":true}
+{"dg-publish":true,"permalink":"/work/rn-d/private-ai-stack-narrow-utps/","title":"Private AI Stack — Узкие УТП","tags":["rnd","ai","services","utp","openclaw","omniroute","rag","draft","public"],"dgEnableSearch":true,"dgShowTags":true}
 ---
 
 

@@ -59,5 +59,4 @@
 - [[Work/RnD/private-ai-stack-narrow-utps\|Work/RnD/private-ai-stack-narrow-utps]]
 - [[Work/RnD/private-ai-stack-for-clients-draft\|Work/RnD/private-ai-stack-for-clients-draft]]
 
----
-*Источник: образ J.A.R.V.I.S. как AI-ассистента и операционного слоя из вселенной Iron Man/Marvel: [Wikipedia](https://ru.wikipedia.org/wiki/%D0%94.%D0%96.%D0%90.%D0%A0.%D0%92.%D0%98.%D0%A1.)*
+*Дисклеймер / Disclaimer: material is published for informational and research purposes. [Полный отказ от ответственности / Full disclaimer](https://notes.kazakov.xyz/legal/disclaimer/).*

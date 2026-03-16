@@ -47,6 +47,9 @@ This site is a public notebook: a mix of evergreen notes, experiments, and rough
 
 ### By area
 
+#### Other
+- 2026-03-16 [[Knowledge/legal-disclaimer\|Отказ от ответственности / Disclaimer]]
+
 ### How to use this site
 - Use search if you know the topic
 - Start from a note above and follow wiki-links
@@ -61,3 +64,5 @@ This site is a public notebook: a mix of evergreen notes, experiments, and rough
 ✍️ [Medium](https://kksudo.medium.com) · 
 💼 [LinkedIn](https://linkedin.com/in/kazakovk) · 
 🐙 [GitHub](https://github.com/kksudo)
+---
+*Дисклеймер / Disclaimer: material is published for informational and research purposes. [Полный отказ от ответственности / Full disclaimer](https://notes.kazakov.xyz/legal/disclaimer/).*

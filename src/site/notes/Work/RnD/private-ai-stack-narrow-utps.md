@@ -216,5 +216,4 @@
 - [[Knowledge/AI/model-selection\|Knowledge/AI/model-selection]]
 - [[Knowledge/AI/obsidian-openclaw-integration\|Knowledge/AI/obsidian-openclaw-integration]]
 
----
-*Source: decomposition of Private AI Stack draft into narrower, more sellable offers.*
+*Дисклеймер / Disclaimer: material is published for informational and research purposes. [Полный отказ от ответственности / Full disclaimer](https://notes.kazakov.xyz/legal/disclaimer/).*

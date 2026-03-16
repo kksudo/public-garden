@@ -21,6 +21,7 @@
 
 Перед повторением конфига нужно иметь: прошивку OpenWrt 24.10.x (или совместимую), установленные пакеты — https-dns-proxy, podkop, sing-box, b4, logrotate, watchcat, tune2fs (e2fsprogs), USB-накопитель смонтирован в `/mnt/usb`. Полная карта файлов, пути и команды отката — в исходной документации (README и разделы 01–07 в том же репозитории или архиве, где лежит этот гайд).
 
+
 ## Как устроена связка
 
 Роутер на MT7621/mt7915 под [OpenWrt](https://openwrt.org/) 24.10.x.
@@ -183,3 +184,5 @@ Context: This document describes an OpenWrt 24.10.x setup on a Netis N6 router (
 Task: Propose and, if needed, implement additional optimizations for this hardware and stack. Consider: RAM and tmpfs limits (/tmp is in RAM), USB flash wear, DNS stability when the proxy fails, cascading restarts, netlink/nft load. For each optimization briefly explain why it is needed and what effect it has. Use this guide’s sections “Стабильность”, “DNS”, “b4 и российские сайты” as the format template: describe the measure + a “Зачем” (why) block. Follow the practices from the guide (sysctl, staggered cron, checking free space before restarting dnsmasq, cache.db monitoring, noatime/commit on USB, log size thresholds). Do not change the overall logic (DNS independent of VPN, domains in UCI, b4_domestic, etc.) — only tuning, monitoring, and safeguards.
 ```
 </details>
+---
+*Дисклеймер / Disclaimer: material is published for informational and research purposes. [Полный отказ от ответственности / Full disclaimer](https://notes.kazakov.xyz/legal/disclaimer/).*

@@ -224,5 +224,4 @@
 - [[Knowledge/AI/obsidian-openclaw-integration\|Knowledge/AI/obsidian-openclaw-integration]]
 - [[Knowledge/AI/saas-utp-openclaw-rag-paperclip-notebooklm\|Knowledge/AI/saas-utp-openclaw-rag-paperclip-notebooklm]]
 
----
-*Source: working draft from discussion about local AI deployment, routing, RAG and workflow automation.*
+*Дисклеймер / Disclaimer: material is published for informational and research purposes. [Полный отказ от ответственности / Full disclaimer](https://notes.kazakov.xyz/legal/disclaimer/).*

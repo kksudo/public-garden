@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"legal/disclaimer/","url":"https://notes.kazakov.xyz/legal/disclaimer/","dg-enable-search":true,"dg-show-tags":false,"title":"Отказ от ответственности / Disclaimer","date":"2026-03-16","tags":["legal","disclaimer","public"],"permalink":"/legal/disclaimer/","dgEnableSearch":true,"dgPassFrontmatter":true}
+{"dg-publish":true,"dg-permalink":"legal/disclaimer/","url":"https://notes.kazakov.xyz/legal/disclaimer/","dg-enable-search":true,"dg-show-tags":false,"title":"Отказ от ответственности / Disclaimer","date":"2026-03-16","tags":["#legal","#disclaimer","#public"],"permalink":"/legal/disclaimer/","dgEnableSearch":true,"dgPassFrontmatter":true}
 ---
 
 

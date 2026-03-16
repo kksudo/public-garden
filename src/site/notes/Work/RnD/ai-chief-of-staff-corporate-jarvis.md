@@ -1,5 +1,5 @@
 ---
-{"title":"AI Chief of Staff — идея корпоративного Джарвиса","date":"2026-03-16","tags":["public","rnd","ai","positioning","offers","executive","chief-of-staff"],"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"rnd/ai-chief-of-staff/","url":"https://notes.kazakov.xyz/rnd/ai-chief-of-staff/","permalink":"/rnd/ai-chief-of-staff/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
+{"title":"AI Chief of Staff — идея корпоративного Джарвиса","date":"2026-03-16","tags":["#public","#rnd","#ai","#positioning","#offers","#executive","#chief-of-staff"],"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"rnd/ai-chief-of-staff/","url":"https://notes.kazakov.xyz/rnd/ai-chief-of-staff/","permalink":"/rnd/ai-chief-of-staff/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 

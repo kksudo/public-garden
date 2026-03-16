@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"infrastructure/netis-n6-openwrt/","url":"https://notes.kazakov.xyz/infrastructure/netis-n6-openwrt/","dg-enable-search":true,"dg-show-tags":true,"title":"OpenWrt на Netis N6: DNS, VPN по доменам, обход DPI и стабильность","date":"2026-03-16","tags":["infrastructure","openwrt","router","vpn","dpi"],"permalink":"/infrastructure/netis-n6-openwrt/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
+{"dg-publish":true,"dg-permalink":"infrastructure/netis-n6-openwrt/","url":"https://notes.kazakov.xyz/infrastructure/netis-n6-openwrt/","dg-enable-search":true,"dg-show-tags":true,"title":"OpenWrt на Netis N6: DNS, VPN по доменам, обход DPI и стабильность","date":"2026-03-16","tags":["#infrastructure","#openwrt","#router","#vpn","#dpi","#public"],"permalink":"/infrastructure/netis-n6-openwrt/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 

@@ -1,12 +1,23 @@
 ---
-{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"permalink":"/knowledge/ai/deepmind-delegation-framework/","url":"https://notes.kazakov.xyz/ai/deepmind-delegation/","title":"DeepMind — Delegation Framework для AI агентов","date":"2026-03-17","tags":["#ai","#agents","#delegation","#research","#deepmind","#public"],"source":"https://arxiv.org/abs/2602.11865","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
+{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"/knowledge/ai/deepmind-delegation-framework/","url":"https://notes.kazakov.xyz/knowledge/ai/deepmind-delegation-framework/","title":"DeepMind — Delegation Framework для AI агентов","date":"2026-03-17","tags":["ai","agents","delegation","research","deepmind","public"],"source":"https://arxiv.org/abs/2602.11865","permalink":"/knowledge/ai/deepmind-delegation-framework/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 
 # DeepMind — Delegation Framework для AI агентов
 
-**Источник:** arxiv.org/abs/2602.11865  
-**Канал:** @machinelearning_interview
+**Авторы:** Nenad Tomašev et al. (Google DeepMind), февраль 2026  
+**Paper:** [arXiv:2602.11865](https://arxiv.org/abs/2602.11865)  
+**PDF:** [arxiv.org/pdf/2602.11865](https://arxiv.org/pdf/2602.11865)  
+**HTML:** [arxiv.org/html/2602.11865v1](https://arxiv.org/html/2602.11865v1)  
+**DOI:** [10.48550/arXiv.2602.11865](https://doi.org/10.48550/arXiv.2602.11865)
+
+---
+
+## Цитаты из оригинала
+
+> *"Delegation is more than just task decomposition into manageable sub-units of action. Beyond the creation of sub-tasks, delegation necessitates the assignment of responsibility and authority and thus implicates accountability for outcomes. Delegation thus involves risk assessment, which can be moderated by trust."*
+
+> *"To fully utilize AI agents, we need intelligent delegation: a robust framework centered around clear roles, boundaries, reputation, trust, transparency, certifiable agentic capabilities, verifiable task execution, and scalable task distribution."*
 
 ---
 

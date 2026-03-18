@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-home":true,"title":"Kirill Kazakov — Notes","tags":["#public","#home","#gardenEntry","gardenEntry"],"url":"https://notes.kazakov.xyz/","permalink":"/index/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
+{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-home":true,"title":"Kirill Kazakov — Notes","tags":["#public","#home","gardenEntry"],"url":"https://notes.kazakov.xyz/","permalink":"/index/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 
@@ -39,15 +39,16 @@ This site is a public notebook: a mix of evergreen notes, experiments, and rough
 ## Browse Notes
 
 ### Recent public notes
+- 2026-03-18 [[Knowledge/AI/agent-skills-habr-notevsky\|Навыки агентов (Agent Skills): что это такое и почему это больше, чем «папка с промптами»]]
 - 2026-03-17 [[Knowledge/AI/deepmind-delegation-framework\|DeepMind — Delegation Framework для AI агентов]]
 - 2026-03-16 [[Work/RnD/ai-chief-of-staff-corporate-jarvis\|AI Chief of Staff — идея корпоративного Джарвиса]]
 - 2026-03-16 [[Knowledge/Infrastructure/Netis N6 Router/PUBLIC-GUIDE\|OpenWrt на Netis N6: DNS, VPN по доменам, обход DPI и стабильность]]
 - 2026-03-16 [[Work/RnD/private-ai-stack-narrow-utps\|Private AI Stack — Узкие УТП]]
-- 2026-03-16 [[Work/RnD/private-ai-stack-for-clients-draft\|Private AI Stack for Clients — Draft]]
 
 ### By area
 
 #### R&D
+- 2026-03-16 [[Work/RnD/private-ai-stack-for-clients-draft\|Private AI Stack for Clients — Draft]]
 - 2026-03-16 [[Work/RnD/tg-channel-to-site-migration\|TG Channel → Site Migration — Service Idea]]
 
 #### Other

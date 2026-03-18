@@ -39,17 +39,27 @@ This site is a public notebook: a mix of evergreen notes, experiments, and rough
 ## Browse Notes
 
 ### Recent public notes
+- 2026-03-18 [[Knowledge/AI/openclaw-vs-cowork-ai-assistants\|OpenClaw vs Cowork: два подхода к персональному AI-ассистенту]]
+- 2026-03-18 [[Knowledge/AI/claude-web-search-brave\|Как устроен веб-поиск в Claude — Brave Search под капотом]]
 - 2026-03-18 [[Knowledge/AI/agent-skills-habr-notevsky\|Навыки агентов (Agent Skills): что это такое и почему это больше, чем «папка с промптами»]]
 - 2026-03-17 [[Knowledge/AI/deepmind-delegation-framework\|DeepMind — Delegation Framework для AI агентов]]
 - 2026-03-16 [[Work/RnD/ai-chief-of-staff-corporate-jarvis\|AI Chief of Staff — идея корпоративного Джарвиса]]
-- 2026-03-16 [[Knowledge/Infrastructure/Netis N6 Router/PUBLIC-GUIDE\|OpenWrt на Netis N6: DNS, VPN по доменам, обход DPI и стабильность]]
-- 2026-03-16 [[Work/RnD/private-ai-stack-narrow-utps\|Private AI Stack — Узкие УТП]]
 
 ### By area
 
+#### AI
+- 2026-03-14 [[Knowledge/AI/openclaw-skill-creation-guide\|Как создать скилл для OpenClaw]]
+
 #### R&D
+- 2026-03-16 [[Work/RnD/private-ai-stack-narrow-utps\|Private AI Stack — Узкие УТП]]
 - 2026-03-16 [[Work/RnD/private-ai-stack-for-clients-draft\|Private AI Stack for Clients — Draft]]
 - 2026-03-16 [[Work/RnD/tg-channel-to-site-migration\|TG Channel → Site Migration — Service Idea]]
+
+#### Infrastructure
+- 2026-03-16 [[Knowledge/Infrastructure/Netis N6 Router/PUBLIC-GUIDE\|OpenWrt на Netis N6: DNS, VPN по доменам, обход DPI и стабильность]]
+
+#### Productivity
+- 2026-03-13 [[Knowledge/Productivity/obsidian-sharing-options\|Как шарить Obsidian заметки с коллегами]]
 
 #### Other
 - 2026-03-16 [[Knowledge/legal-disclaimer\|Отказ от ответственности / Disclaimer]]

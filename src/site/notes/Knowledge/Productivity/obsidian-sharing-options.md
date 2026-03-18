@@ -145,3 +145,5 @@
 ## Связанные заметки
 - [[Knowledge/AI/obsidian-setup\|obsidian-setup]]
 - [[Knowledge/AI/obsidian-openclaw-integration\|obsidian-openclaw-integration]]
+
+*Дисклеймер / Disclaimer: material is published for informational and research purposes. [Полный отказ от ответственности / Full disclaimer](https://notes.kazakov.xyz/legal/disclaimer/).*

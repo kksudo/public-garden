@@ -154,3 +154,5 @@ ls /opt/homebrew/lib/node_modules/openclaw/skills/my-skill/
 ## Связанные заметки
 - [[Knowledge/AI/obsidian-skill-draft\|obsidian-skill-draft]]
 - [[Knowledge/AI/obsidian-openclaw-integration\|obsidian-openclaw-integration]]
+
+*Дисклеймер / Disclaimer: material is published for informational and research purposes. [Полный отказ от ответственности / Full disclaimer](https://notes.kazakov.xyz/legal/disclaimer/).*

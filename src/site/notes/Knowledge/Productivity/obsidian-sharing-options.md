@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"productivity/obsidian-sharing-options/","url":"https://notes.kazakov.xyz/productivity/obsidian-sharing-options/","title":"Как шарить Obsidian заметки с коллегами","date":"2026-03-13","status":"published","tags":["#obsidian","#шаринг","#коллаборация","#публикация","#public"],"permalink":"/productivity/obsidian-sharing-options/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
+{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"productivity/obsidian-sharing-options/","url":"https://notes.kazakov.xyz/productivity/obsidian-sharing-options/","title":"Как шарить Obsidian заметки с коллегами","date":"2026-03-13","status":"published","tags":["obsidian","шаринг","коллаборация","публикация","public"],"permalink":"/productivity/obsidian-sharing-options/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 

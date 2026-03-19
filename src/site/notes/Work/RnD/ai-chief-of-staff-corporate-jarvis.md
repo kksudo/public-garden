@@ -1,11 +1,11 @@
 ---
-{"title":"AI Chief of Staff — идея корпоративного Джарвиса","date":"2026-03-16","tags":["public","rnd","ai","positioning","offers","executive","chief-of-staff"],"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"rnd/ai-chief-of-staff/","url":"https://notes.kazakov.xyz/rnd/ai-chief-of-staff/","permalink":"/rnd/ai-chief-of-staff/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
+{"title":"AI Chief of Staff — идея корпоративного Джарвиса","date":"2026-03-16","tags":["#public","#rnd","#ai","#positioning","#offers","#executive","#chief-of-staff"],"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"rnd/ai-chief-of-staff/","url":"https://notes.kazakov.xyz/rnd/ai-chief-of-staff/","permalink":"/rnd/ai-chief-of-staff/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 
 # AI Chief of Staff — идея корпоративного Джарвиса
 
-![AI Chief of Staff visual](/img/user/assets/ai-chief-of-staff-corporate-jarvis.png)
+![AI Chief of Staff visual](/img/user/assets/content/ai/ai-chief-of-staff-corporate-jarvis.png)
 
 > **TL;DR:** не просто AI-чат для руководителя, а приватный рабочий слой, который держит контекст, собирает картину дня, не дает терять договоренности и помогает быстрее принимать решения.
 

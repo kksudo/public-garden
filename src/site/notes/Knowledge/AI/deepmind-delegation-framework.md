@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"ai/deepmind-delegation-framework/","url":"https://notes.kazakov.xyz/ai/deepmind-delegation-framework/","title":"DeepMind — Delegation Framework для AI агентов","date":"2026-03-17","tags":["ai","agents","delegation","research","deepmind","public"],"source":"https://arxiv.org/abs/2602.11865","status":"published","permalink":"/ai/deepmind-delegation-framework/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
+{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"ai/deepmind-delegation-framework/","url":"https://notes.kazakov.xyz/ai/deepmind-delegation-framework/","title":"DeepMind — Delegation Framework для AI агентов","date":"2026-03-17","tags":["#ai","#agents","#delegation","#research","#deepmind","#public"],"source":"https://arxiv.org/abs/2602.11865","status":"published","permalink":"/ai/deepmind-delegation-framework/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 
 # DeepMind — Delegation Framework для AI агентов
 
-![DeepMind Delegation Framework visual](/img/user/assets/deepmind-delegation-framework.jpg)
+![DeepMind Delegation Framework visual](/img/user/assets/content/ai/deepmind-delegation-framework.jpg)
 
 **Авторы:** Nenad Tomašev et al. (Google DeepMind), февраль 2026  
 **Paper:** [arXiv:2602.11865](https://arxiv.org/abs/2602.11865)  

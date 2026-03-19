@@ -3,13 +3,15 @@
 ---
 
 
+> **Источник:** [Claude Opus 4.6 vs Claude Sonnet 4.6: кто лучше?](https://habr.com/ru/companies/bothub/articles/1005034/) (Habr, 2026)
+
 Индустрия ИИ не сбавляет обороты: только за последний месяц мы увидели релизы Gemini 3.1 Pro и ChatGPT 5.3 Codex. Но главными героями этой весны для меня стали обновления от Anthropic — **Claude Sonnet 4.6** и **Claude Opus 4.6**. 
 
 Как AI Advocate и создатель **PRGate** (платформы для автоматизированного policy-aware ревью кода, [GitHub](https://github.com/prgate/prgate)), я ежедневно тестирую новые LLM. Для меня крайне важно понимать, какая модель лучше справляется с глубоким анализом контекста (что критично для код-ревью), а какая — идеальна для потоковой рутины и генерации контента.
 
 В этой статье мы разберем практическое сравнение Claude Opus 4.6 и Sonnet 4.6 на рутинных задачах, без скучных бенчмарков. 
 
-![Обложка](../../assets/content/ai/claude-4-6-comparison/cover.png)
+![Обложка](/img/user/assets/content/ai/claude-4-6-comparison/cover.png)
 
 ## Позиционирование: Opus 4.6 или Sonnet 4.6?
 
@@ -44,40 +46,40 @@ Sonnet 4.6 занимает золотую середину: он быстрее
 
 **🥇 Claude Opus 4.6 (3 из 3 баллов)**
 Opus выдал отличный, связный текст с уместным юмором. Читается легко, структура выдержана. Для задач копирайтинга, сторителлинга и создания маркетингового контента флагман Anthropic остается вне конкуренции.
-![Opus текст](../../assets/content/ai/claude-4-6-comparison/text-opus.png)
+![Opus текст](/img/user/assets/content/ai/claude-4-6-comparison/text-opus.png)
 
 **🔴 Claude Sonnet 4.6 (1 из 3 баллов)**
 Младшая модель откровенно разочаровала. Текст получился сухим, "пластиковым" и без обещанной комедии. Использовать Sonnet для сложных креативных задач без цепочки агентов-редакторов пока не стоит.
-![Sonnet текст](../../assets/content/ai/claude-4-6-comparison/text-sonnet.png)
+![Sonnet текст](/img/user/assets/content/ai/claude-4-6-comparison/text-sonnet.png)
 
 ### 2. Саммеризация и выжимка (Анализ технической документации)
 **Задача:** Сделать выжимку из лекционного материала, сохранив все ключевые смыслы и детали.
 
 **⚖️ Ничья (по 2 балла)**
 В моей DevOps-практике часто нужно суммаризировать логи инцидентов или документацию. В этом тесте **Opus 4.6** сделал хорошую текстовую выжимку, но потерял почти все важные формулы.
-![Opus выжимка](../../assets/content/ai/claude-4-6-comparison/summary-opus.png)
+![Opus выжимка](/img/user/assets/content/ai/claude-4-6-comparison/summary-opus.png)
 
 **Sonnet 4.6** справился с формулами чуть лучше, но обе модели показали, что при сжатии технического контента за ними нужен жесткий контроль (промптинг на обязательное сохранение артефактов).
-![Sonnet выжимка](../../assets/content/ai/claude-4-6-comparison/summary-sonnet.png)
+![Sonnet выжимка](/img/user/assets/content/ai/claude-4-6-comparison/summary-sonnet.png)
 
 ### 3. Математика и логика
 **Задача:** Решить 4 математические задачи разного уровня сложности.
 
 **⚖️ Ничья (по 3.5 балла)**
 Обе модели справились отлично, решив почти все без ошибок, но обе немного споткнулись в финальном оформлении ответа в последнем задании (не заменили переменную в финале).
-![Opus математика](../../assets/content/ai/claude-4-6-comparison/math-opus.png)
-![Sonnet математика](../../assets/content/ai/claude-4-6-comparison/math-sonnet.png)
+![Opus математика](/img/user/assets/content/ai/claude-4-6-comparison/math-opus.png)
+![Sonnet математика](/img/user/assets/content/ai/claude-4-6-comparison/math-sonnet.png)
 
 ### 4. Программирование (Взгляд CTO)
 **Задача:** Написать на Python десктопный инженерный калькулятор с GUI и встроенной игрой "Змейка" (Zero-shot промпт).
 
 **🔴 Claude Opus 4.6 (0 баллов)**
 Ожидаемо, что флагман должен был разорвать этот тест. Но вышло наоборот: Opus выдал красивый дизайн калькулятора, в котором **не работает ничего**. Змейка просто сыплет ошибками при запуске. 
-![Opus код](../../assets/content/ai/claude-4-6-comparison/code-opus.png)
+![Opus код](/img/user/assets/content/ai/claude-4-6-comparison/code-opus.png)
 
 **🥇 Claude Sonnet 4.6 (1 балл)**
 Младшая модель удивила. Змейка работает отлично, базовые операции калькулятора — тоже (хоть сложные функции и отвалились).
-![Sonnet код](../../assets/content/ai/claude-4-6-comparison/code-sonnet.png)
+![Sonnet код](/img/user/assets/content/ai/claude-4-6-comparison/code-sonnet.png)
 
 **Инсайт для CTO:** Это отличная иллюстрация того, что в 2026 году писать сложный софт одним промптом — плохая идея. Качественная разработка с ИИ строится на **Agentic Workflows**, где модель итеративно пишет код, запускает тесты и сама себя исправляет (например, в Cursor).
 

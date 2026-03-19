@@ -5,7 +5,7 @@
 
 # LangChain Deep Agents: архитектура субагентов, планирование и что из этого можно взять для code review
 
-Когда строишь multi-agent систему для code review, рано или поздно упираешься в три проблемы: как изолировать контекст между агентами, как планировать сложные задачи и как не упереться в лимит контекстного окна на длинных diff'ах. LangChain выпустили [Deep Agents](https://github.com/langchain-ai/deepagents) — open-source фреймворк, который решает именно эти задачи. Разбираю архитектуру и прикидываю, что из этого применимо в [PRGate](https://github.com/kksudo/prgate).
+Когда строишь multi-agent систему для code review, рано или поздно упираешься в три проблемы: как изолировать контекст между агентами, как планировать сложные задачи и как не упереться в лимит контекстного окна на длинных diff'ах. LangChain выпустили [Deep Agents](https://github.com/langchain-ai/deepagents) — open-source фреймворк, который решает именно эти задачи. Разбираю архитектуру и прикидываю, что из этого применимо в [PRGate](https://github.com/prgate).
 
 ## Что такое Deep Agents
 
@@ -62,7 +62,7 @@ Middleware оборачивает вызовы модели и инжектит 
 
 ## Что из этого применимо в PRGate
 
-[PRGate](https://github.com/kksudo/prgate) — open-source AI code review для GitHub. Текущая архитектура уже использует multi-agent подход: оркестратор строит план ревью, собирает контекст репозитория, запускает специализированных агентов параллельно (logic, security, style), а критик фильтрует false positives.
+[PRGate](https://github.com/prgate) — open-source AI code review для GitHub. Текущая архитектура уже использует multi-agent подход: оркестратор строит план ревью, собирает контекст репозитория, запускает специализированных агентов параллельно (logic, security, style), а критик фильтрует false positives.
 
 Вот конкретные паттерны из Deep Agents, которые имеет смысл адаптировать:
 
@@ -103,7 +103,7 @@ Deep Agents model-agnostic — каждый субагент может испо
 - [Deep Agents — блог LangChain](https://blog.langchain.com/deep-agents/)
 - [Deep Agents JS](https://github.com/langchain-ai/deepagentsjs)
 - [Deep Agents — PyPI](https://pypi.org/project/deepagents/)
-- [PRGate — GitHub](https://github.com/kksudo/prgate)
+- [PRGate — GitHub](https://github.com/prgate)
 - [LangGraph](https://github.com/langchain-ai/langgraph)
 - [MarkTechPost: разбор архитектуры Deep Agents](https://www.marktechpost.com/2026/03/15/langchain-releases-deep-agents-a-structured-runtime-for-planning-memory-and-context-isolation-in-multi-step-ai-agents/)
 

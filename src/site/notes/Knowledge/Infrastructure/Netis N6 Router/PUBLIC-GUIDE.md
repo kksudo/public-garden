@@ -87,6 +87,8 @@ logger -t singbox-patch "Added tproxy-in catch-all -> $OUTBOUND in $CONFIG"
 
 ## b4 и российские сайты
 
+> **2026-03-19:** на Netis N6 в проде стек **b4 снят** (миграция на **zapret2**). Раздел ниже — **как было**; актуальная карта — внутренние заметки `04-b4.md` (архив) и план миграции.
+
 [b4 (ByeDPI)](https://github.com/DanielLavrushin/b4) направляет весь трафик на порт 443 через NFQUEUE; в результате для Яндекса и других российских сервисов появлялись капчи и возникали блокировки.
 
 **Патч:** nft set **`b4_domestic`** в таблице `inet b4_mangle`. Для IP из этого сета — return в цепях b4 (prerouting/postrouting), трафик не идёт в NFQUEUE. Скрипт: `/root/bin/b4-domestic-bypass.sh`, вызывается из `/etc/init.d/b4` в `start()` (ожидание появления `b4_mangle` до 15 с).

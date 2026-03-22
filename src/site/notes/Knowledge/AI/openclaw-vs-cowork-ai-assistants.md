@@ -1,13 +1,17 @@
 ---
-{"title":"OpenClaw vs Cowork: два подхода к персональному AI-ассистенту","date":"2026-03-18","status":"published","tags":["public","ai","ai/agents","openclaw","cowork","comparison"],"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"ai/openclaw-vs-cowork-ai-assistants/","url":"https://notes.kazakov.xyz/ai/openclaw-vs-cowork-ai-assistants/","source":"personal-experience","permalink":"/ai/openclaw-vs-cowork-ai-assistants/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
+{"title":"OpenClaw vs Cowork: два подхода к персональному AI-ассистенту","date":"2026-03-18","status":"published","tags":["#public","#ai","#ai/agents","#openclaw","#cowork","#comparison"],"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"ai/openclaw-vs-cowork-ai-assistants/","url":"https://notes.kazakov.xyz/ai/openclaw-vs-cowork-ai-assistants/","source":"personal-experience","permalink":"/ai/openclaw-vs-cowork-ai-assistants/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 
 # OpenClaw vs Cowork: два подхода к персональному AI-ассистенту
 
+![assets/projects/openclaw/openclaw-vs-cowork-cover.png](/img/user/assets/projects/openclaw/openclaw-vs-cowork-cover.png)
+
 Последние несколько месяцев я параллельно использую два инструмента для одной и той же задачи — создания персонального AI-ассистента. OpenClaw (мой агент зовётся Rurik) и Anthropic Cowork (здесь я строю Jarvis). Оба умеют читать мои файлы, работать с Obsidian, выполнять задачи. Но архитектурно это два совершенно разных подхода. И разница не в возможностях — а в том, как ты описываешь *кто* твой агент и *как* он работает.
 
 ## Архитектура: конфиг-файлы vs скиллы
+
+![assets/projects/openclaw/openclaw-vs-cowork-architecture.png](/img/user/assets/projects/openclaw/openclaw-vs-cowork-architecture.png)
 
 OpenClaw определяет поведение агента через набор markdown-файлов в [рабочей директории](https://docs.openclaw.ai/concepts/agent-workspace) (`~/.openclaw/workspace/`):
 

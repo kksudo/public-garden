@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"ai/langchain-deep-agents/","url":"https://notes.kazakov.xyz/ai/langchain-deep-agents/","title":"LangChain Deep Agents: архитектура субагентов, планирование и что из этого можно взять для code review","date":"2026-03-19","status":"published","tags":["#ai","#ai/agents","#ai/langchain","#devops","#prgate","#public"],"source":"https://github.com/langchain-ai/deepagents","permalink":"/ai/langchain-deep-agents/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
+{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"ai/langchain-deep-agents/","url":"https://notes.kazakov.xyz/ai/langchain-deep-agents/","title":"LangChain Deep Agents: архитектура субагентов, планирование и что из этого можно взять для code review","date":"2026-03-19","status":"published","tags":["ai","ai/agents","ai/langchain","devops","prgate","public"],"source":"https://github.com/langchain-ai/deepagents","permalink":"/ai/langchain-deep-agents/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 

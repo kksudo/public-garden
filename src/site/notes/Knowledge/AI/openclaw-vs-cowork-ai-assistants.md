@@ -1,5 +1,5 @@
 ---
-{"title":"OpenClaw vs Cowork: два подхода к персональному AI-ассистенту","date":"2026-03-18","status":"published","tags":["#public","#ai","#ai/agents","#openclaw","#cowork","#comparison"],"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"ai/openclaw-vs-cowork-ai-assistants/","url":"https://notes.kazakov.xyz/ai/openclaw-vs-cowork-ai-assistants/","source":"personal-experience","permalink":"/ai/openclaw-vs-cowork-ai-assistants/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
+{"title":"OpenClaw vs Cowork: два подхода к персональному AI-ассистенту","date":"2026-03-18","status":"published","tags":["public","ai","ai/agents","openclaw","cowork","comparison"],"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"ai/openclaw-vs-cowork-ai-assistants/","url":"https://notes.kazakov.xyz/ai/openclaw-vs-cowork-ai-assistants/","source":"personal-experience","permalink":"/ai/openclaw-vs-cowork-ai-assistants/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 

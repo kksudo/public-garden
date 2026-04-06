@@ -1,5 +1,5 @@
 ---
-{"title":"OpenClaw vs Cowork: два подхода к персональному AI-ассистенту","date":"2026-03-18","status":"published","tags":["public","ai","ai/agents","openclaw","cowork","comparison"],"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"ai/openclaw-vs-cowork-ai-assistants/","url":"https://notes.kazakov.xyz/ai/openclaw-vs-cowork-ai-assistants/","source":"personal-experience","permalink":"/ai/openclaw-vs-cowork-ai-assistants/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
+{"title":"OpenClaw vs Cowork: два подхода к персональному AI-ассистенту","date":"2026-03-25","status":"published","tags":["public","ai","ai/agents","openclaw","cowork","comparison"],"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"ai/openclaw-vs-cowork-ai-assistants/","url":"https://notes.kazakov.xyz/ai/openclaw-vs-cowork-ai-assistants/","source":"personal-experience","permalink":"/ai/openclaw-vs-cowork-ai-assistants/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 
@@ -7,96 +7,124 @@
 
 ![assets/projects/openclaw/openclaw-vs-cowork-cover.png](/img/user/assets/projects/openclaw/openclaw-vs-cowork-cover.png)
 
-Последние несколько месяцев я параллельно использую два инструмента для одной и той же задачи — создания персонального AI-ассистента. OpenClaw (мой агент зовётся Rurik) и Anthropic Cowork (здесь я строю Jarvis). Оба умеют читать мои файлы, работать с Obsidian, выполнять задачи. Но архитектурно это два совершенно разных подхода. И разница не в возможностях — а в том, как ты описываешь *кто* твой агент и *как* он работает.
+Уже около трёх месяцев гоняю два стека рядом: **OpenClaw** ([openclaw/openclaw](https://github.com/openclaw/openclaw), порядка **336k** звёзд на момент написания) и **Cowork** (research preview от Anthropic). Задача одна и та же: читать файлы, держать контекст, выполнять работу. Внутри разные звери.
 
-## Архитектура: конфиг-файлы vs скиллы
+Агента на OpenClaw зову **Rurik**: дневник, фон, напоминания. На Cowork это **Jarvis**: новый тред, чистый лист, жёстче контур, зато когда открываешь, инструменты под рукой без театра.
+
+## Архитектура: файлы workspace vs скиллы
 
 ![assets/projects/openclaw/openclaw-vs-cowork-architecture.png](/img/user/assets/projects/openclaw/openclaw-vs-cowork-architecture.png)
 
-OpenClaw определяет поведение агента через набор markdown-файлов в [рабочей директории](https://docs.openclaw.ai/concepts/agent-workspace) (`~/.openclaw/workspace/`):
+**OpenClaw** опирается на markdown в [workspace](https://docs.openclaw.ai/concepts/agent-workspace) (по умолчанию `~/.openclaw/workspace/`): **SOUL.md**, **AGENTS.md**, **IDENTITY.md**, **USER.md**, плюс по желанию **HEARTBEAT.md**, **MEMORY.md** и т.д. Это попадает в системную часть сессии: личность и правила в обычных файлах, их можно править и версионировать.
 
-- **[SOUL.md](https://clawdocs.org/guides/soul-md/)** — характер, тон, философия. Это не инструкция, а манифест: "Be genuinely helpful, not performatively helpful", "Have opinions", "Be resourceful before asking". SOUL.md инжектится в system prompt перед каждым сообщением.
-- **AGENTS.md** — правила работы, безопасность, воркфлоу, протокол памяти
-- **IDENTITY.md** — имя, роль, аватар (создаётся при bootstrap ритуале)
-- **USER.md** — информация о пользователе, которую агент накапливает со временем
+У OpenClaw тоже есть **скиллы** (`workspace/skills/.../SKILL.md`). То есть контраст не «без скиллов / со скиллами», а акцент: у Cowork история продукта **skills-first** и шаринг; у OpenClaw по умолчанию ощущение «эта папка и голова агента».
 
-Cowork использует модульные [**скиллы**](https://support.claude.com/en/articles/12512180-use-skills-in-claude) — папки с SKILL.md и опциональными скриптами, ассетами, справочными файлами. Скилл — это пакет, который можно установить, обновить, передать другому пользователю. Создаётся через `/skill-creator` — целый фреймворк с eval viewer, бенчмарками, A/B-тестами.
+**Cowork**: модульные [**скиллы**](https://support.claude.com/en/articles/12512180-use-skills-in-claude): `SKILL.md`, скрипты, ассеты. Поставил, обновил, передал. Авторинг через `/skill-creator`, eval viewer, бенчмарки, A/B, если углубляться.
 
-Разница принципиальная. OpenClaw даёт агенту *личность*, которая живёт в workspace. Cowork даёт агенту *набор инструментов*, которые подключаются по необходимости.
+По **SOUL.md**: в доках про инжект в системный контекст сессии; формулировка «перед каждым сообщением» легко уводит в неточность, я её не использую.
 
 ## Память и непрерывность
 
-Самое заметное отличие — как агент помнит контекст между сессиями.
+**Rurik:** `memory/YYYY-MM-DD.md` для сливов, `MEMORY.md` для длинной дуги. После компакции пишет сжатое важное; в новой сессии может подтянуть назад. **Heartbeat** + **HEARTBEAT.md**: слой «проверься, даже если я молчу»; это не то же самое, что дневник, но в жизни складывается вместе.
 
-В OpenClaw агент ведёт [дневник](https://docs.openclaw.ai/concepts/agent-workspace): `memory/YYYY-MM-DD.md` для сырых логов, `MEMORY.md` для кумулятивной памяти. При каждом старте читает последние записи и знает, что обсуждалось вчера. Heartbeat-механизм позволяет ему периодически ревизировать память — как человек, который перечитывает свои заметки и обновляет картину мира. MEMORY.md — это не лог, а *curated wisdom*, выжимка значимого.
-
-В [Cowork](https://claude.com/blog/cowork-research-preview) из коробки нет памяти между сессиями. Каждый разговор начинается с нуля. Скилл может читать файлы при старте (и мой jarvis-assistant это делает — подтягивает daily notes из Obsidian), но это не то же самое, что агент, который сам ведёт дневник и помнит, что ты вчера решил сменить стратегию поиска работы.
+**Cowork:** между тредами «как в чате вчера» из коробки нет. Я подключил **Obsidian**: каждый новый разговор всё равно приземляется на реальные файлы. Это не равно «помнит наш диалог вторника», но и не пустота.
 
 ## Проактивность
 
-OpenClaw через heartbeat-механизм умеет действовать без запроса. Мой Rurik проверяет почту, смотрит календарь, следит за задачами в Paperclip (встроенный таск-трекер), уведомляет, если агент завис. Он знает, когда молчать (ночью, если ничего нового), а когда стоит написать ("через 2 часа встреча, ты готов?"). Работает через мессенджеры — Telegram, Discord, WhatsApp.
+**Rurik:** в *моей* конфигурации тянет календарные сигналы, задачи (в т.ч. через Paperclip), пишет в мессенджеры: это **настройка, хуки, каналы**, не «магия из коробки». Heartbeat как раз делает правдоподобным сценарий «сделай что-то без моего „привет“».
 
-Cowork реактивен по природе. Есть [scheduled tasks](https://support.claude.com/en/articles/13345190-get-started-with-cowork) — можно настроить утренний брифинг по крону. Но это скорее напоминания, чем автономное поведение. Агент не мониторит твою жизнь в фоне — он ждёт, пока ты к нему придёшь.
+**Cowork:** без меня не оживает. [Scheduled tasks](https://support.claude.com/en/articles/13345190-get-started-with-cowork) есть; для меня это ближе к cron-напоминаниям, чем ко второму мозгу, который сам бегает по делам.
 
 ## Модели и маршрутизация
 
-OpenClaw model-agnostic — работает с Claude, GPT, DeepSeek и любой моделью через OpenAI-совместимое API. Через OmniRoute я маршрутизирую запросы на разные модели: `quick-response` для heartbeats, `deep-thinking` (Opus) для архитектурных решений, `coding-paid-fallback` для кодогенерации.
+**OpenClaw**, multi-provider, если правильно провести провода. У меня трафик идёт через **[OmniRoute](https://github.com/diegosouzapw/OmniRoute)** (~**1.2k** stars). Отдельный **AI gateway**: OpenAI-совместимый endpoint, маршрутизация, ретраи, фолбэки, плюс политики, лимиты, кэш, observability, чтобы не сидеть над ключами и квотами вручную. К OpenClaw не относится; это просто то, что у меня стоит перед моделями.
 
-Cowork жёстко привязан к Claude (Opus 4.6 / Sonnet 4.6 / Haiku 4.5). Это и плюс (глубокая интеграция, оптимизированные скиллы), и минус (нет выбора модели под задачу). Зато доступны sub-agents — можно spawn'ить задачи на разных моделях параллельно.
+**Cowork** заточен под Claude (Opus / Sonnet / Haiku), зато с **sub-agents**, параллельно разные модели/задачи.
 
 ## Экосистема и интеграции
 
-OpenClaw — [open source](https://github.com/openclaw/openclaw) с 247k+ звёзд на GitHub. 50+ интеграций из коробки: чаты, умный дом, музыка, автоматизация. Сообщество создаёт [готовые конфиги агентов](https://github.com/mergisi/awesome-openclaw-agents) — 162 шаблона SOUL.md по 19 категориям.
+OpenClaw, open source, куча [**каналов и инструментов**](https://github.com/openclaw/openclaw) в экосистеме проекта; сообщество собирает шаблоны (например [awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents)). Это больше DIY + то, что сам прикрутишь.
 
-Cowork — закрытый продукт Anthropic с [растущей экосистемой](https://findskill.ai/blog/claude-cowork-guide/): MCP-коннекторы (Slack, GitHub, Jira, Google Drive, Gmail, DocuSign), маркетплейс скиллов от Notion/Figma/Atlassian, встроенные скиллы для docx/xlsx/pdf/pptx. Плагины объединяют скиллы, коннекторы и sub-agents в пакеты.
+Cowork, продукт Anthropic с [растущей экосистемой](https://findskill.ai/blog/claude-cowork-guide/): MCP-коннекторы, маркетплейс скиллов, docx/xlsx/pdf/pptx ближе к «всё включено».
 
 ## Безопасность
 
-Тут важный нюанс. [Gartner назвал](https://www.sangfor.com/blog/tech/openclaw-ai-agent-2026-explained) дизайн OpenClaw "insecure by default", Cisco — "security nightmare". Агент имеет доступ к файлам, SSH, API-ключам — всё на совести пользователя. В AGENTS.md можно прописать правила (`trash` > `rm`, спрашивать перед доступом к секретам), но enforcement — на уровне промпта, не на уровне системы.
+**OpenClaw:** в upstream прямо сказано: для **main**-сессии инструменты по умолчанию на **хосте**. Сила и ответственность на тебе. Для групп/каналов: pairing, allowlists, **Docker sandbox для non-main** при правильной конфигурации. В каком-то черновике у меня фигурировала отсылка к Gartner («insecure by default»); **первоисточник не нашёл**, в публичный текст не тащу. Реальная модель: читать **Security** в репозитории, гонять `openclaw doctor`, не открывать DM тем, кому не дал бы shell.
 
-Cowork работает в изолированной [Linux VM](https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no) на компьютере пользователя. Доступ к файлам — только к явно смонтированным директориям. Внешние действия требуют подтверждения. Системный промпт содержит жёсткие security rules, которые нельзя переопределить из контента.
+(Про аналитиков и чужие заголовки ок как фон, но не как цитата без первички. Например обзоры вроде [Sangfor про OpenClaw](https://www.sangfor.com/blog/tech/openclaw-ai-agent-2026-explained): на свой риск перепроверять тезисы.)
+
+**Cowork:** Linux VM, allowlist каталогов, жёстче граница ОС. Скучно, в хорошем смысле.
 
 ## Гибрид: что я строю
 
-На практике мне нужны оба подхода. Rurik — для фонового мониторинга, памяти и общения в чатах. Jarvis в Cowork — для конкретных задач: написать статью, спланировать день, подготовиться к интервью, создать презентацию.
+**Rurik**, операционка: что решили, что просрочено, пингануть, когда это правда важно.
 
-Идеальный AI-ассистент — это не один инструмент, а оркестрация нескольких. Один следит, другой делает. Один помнит, другой создаёт.
+**Jarvis**, исполнение: черновики постов, код, презентации.
+
+Два места за одним столом. Не догма «выбери одно».
 
 ## Сравнительная таблица
 
 | Критерий | OpenClaw | Cowork |
 |----------|----------|--------|
 | **Тип** | Open source, self-hosted | Закрытый продукт Anthropic |
-| **Архитектура личности** | Конфиг-файлы (SOUL.md, AGENTS.md, IDENTITY.md, USER.md) | Скиллы (SKILL.md + скрипты + ассеты) |
-| **Модели** | Любые (Claude, GPT, DeepSeek) через OpenAI API | Только Claude (Opus / Sonnet / Haiku) |
-| **Память между сессиями** | Встроенная (memory/, MEMORY.md) | Нет из коробки (workaround через файлы) |
-| **Проактивность** | Heartbeats, фоновый мониторинг | Scheduled tasks (cron-like) |
-| **Каналы общения** | Telegram, Discord, WhatsApp, Signal | Desktop app |
-| **Песочница** | Нет (прямой доступ к системе) | Linux VM, изоляция |
-| **Экосистема** | 50+ интеграций, community SOUL.md шаблоны | MCP-коннекторы, маркетплейс скиллов, плагины |
-| **Разработка расширений** | Markdown конфиги + bash/python скрипты | skill-creator с eval framework, A/B-тестами |
-| **Работа с документами** | Через внешние инструменты | Встроенные скиллы (docx, xlsx, pdf, pptx) |
-| **Безопасность** | На уровне промпта (AGENTS.md) | Системная (VM + security rules + permission model) |
-| **Стоимость** | Бесплатно + API costs | Claude Pro подписка ($20/мес) |
-| **GitHub Stars** | 247k+ | N/A (закрытый продукт) |
+| **Архитектура** | Markdown в workspace + опционально `skills/.../SKILL.md` | Скиллы (SKILL.md + скрипты + ассеты), skills-first |
+| **Модели** | Несколько провайдеров; у меня через [OmniRoute](https://github.com/diegosouzapw/OmniRoute) как gateway | Claude (Opus / Sonnet / Haiku), sub-agents |
+| **Память между сессиями** | `memory/`, `MEMORY.md`, компакция | Нет «как в чате» из коробки; контекст через файлы (Obsidian и т.д.) |
+| **Проактивность** | Heartbeat, фон (зависит от конфига/хуков) | Scheduled tasks, в основном реакция на пользователя |
+| **Каналы** | Мессенджеры и др. через Gateway | Desktop app |
+| **Изоляция** | Main на хосте по умолчанию; sandbox Docker для non-main при настройке | Linux VM, явные папки |
+| **Интеграции** | Каналы, инструменты, DIY | MCP, маркетплейс, офисные форматы |
+| **Стоимость** | Софт бесплатно + API / подписки провайдеров | Подписка Claude (актуальные тарифы на сайте Anthropic) |
+| **GitHub stars** | ~336k ([репозиторий](https://github.com/openclaw/openclaw)) | N/A |
+
+## Бонус: промпт для любого ассистента
+
+**Зачем:** ниже не «напиши красиво», а **короткий бриф**. Заполняешь квадратные скобки один раз; модель обязана выдать **конкретное разделение** (один стек или две роли), **жёсткие границы** («никогда не X»), **5 первых файлов/скиллов** и **три риска на первый месяц**. Меньше шансов получить очередное «зависит от всего».
+
+```
+I'm choosing how to structure my personal AI setup. I read a comparison of two styles:
+(1) workspace-first agents with long-term memory, diary files, and proactive checks;
+(2) isolated, tool-heavy assistants with modular skills and strong OS-level boundaries.
+
+Help me design a concrete plan for MY workflow.
+
+Context to fill in for you:
+- What I do for work: [role / stack / main outputs]
+- What I want automated vs what I must approve: [examples]
+- Where my truth lives (Notion, Obsidian, filesystem, email): [tools]
+- My risk tolerance (full machine access vs sandbox only): [low / medium / high]
+- Whether I need continuity across days (yes/no) and why:
+
+Deliver:
+1) One paragraph: which pattern fits me as primary vs secondary (or hybrid), and why.
+2) If I use two agents (e.g. "context keeper" + "executor"), define each agent's scope, what it may NEVER do, and how handoffs work.
+3) A starter checklist: 5 files or skills I should create first, with one-line purpose each.
+4) Three risks I should monitor in the first month (security, context drift, tool overload).
+
+Be specific. No generic advice. Ask at most two clarifying questions only if a choice is blocked.
+```
+
+(Промпт на английском: его проще вставлять в большинство ассистентов как есть; при желании переведите заголовки deliver-секции под свою модель.)
 
 ## Выводы
 
-Если выбирать один инструмент — зависит от приоритета. Хочешь агента, который *знает* тебя и работает в фоне — OpenClaw. Хочешь мощный инструмент для конкретных задач с экосистемой и безопасностью — Cowork.
+Сжато: OpenClaw, когда нужна **непрерывность** и «знает мой бардак». Cowork, когда нужен **острый инструмент в маленькой комнате**.
 
-Если можешь использовать оба — используй оба. Они не конкурируют, а дополняют друг друга. Как отдел из двух человек: один — операционный менеджер, второй — исполнитель.
+Если тянет оба, бери оба. Вопрос к читателю: у тебя чаще ломается **контекст** или **инструменты**?
 
 ## Ссылки
 
-- [OpenClaw — GitHub](https://github.com/openclaw/openclaw)
-- [OpenClaw — документация Agent Workspace](https://docs.openclaw.ai/concepts/agent-workspace)
+- [OpenClaw (GitHub)](https://github.com/openclaw/openclaw)
+- [OpenClaw Agent Workspace](https://docs.openclaw.ai/concepts/agent-workspace)
 - [SOUL.md Guide](https://clawdocs.org/guides/soul-md/)
-- [Awesome OpenClaw Agents — 162 шаблона](https://github.com/mergisi/awesome-openclaw-agents)
-- [Cowork — официальный анонс](https://claude.com/blog/cowork-research-preview)
-- [Cowork — Getting Started](https://support.claude.com/en/articles/13345190-get-started-with-cowork)
-- [Claude Skills — Help Center](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
-- [OpenClaw Security Analysis — Sangfor](https://www.sangfor.com/blog/tech/openclaw-ai-agent-2026-explained)
-- [Cowork Enterprise — VentureBeat](https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no)
+- [OmniRoute (GitHub)](https://github.com/diegosouzapw/OmniRoute)
+- [Awesome OpenClaw Agents](https://github.com/mergisi/awesome-openclaw-agents)
+- [Cowork, анонс](https://claude.com/blog/cowork-research-preview)
+- [Cowork Getting Started](https://support.claude.com/en/articles/13345190-get-started-with-cowork)
+- [Claude Skills (Help Center)](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
+- [Cowork (VentureBeat)](https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no)
+- [OpenClaw, обзор Sangfor](https://www.sangfor.com/blog/tech/openclaw-ai-agent-2026-explained) (вторичный источник, перепроверять формулировки)
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"rnd/ai-stack-utp/","title":"Private AI Stack — Узкие УТП","date":"2026-03-16","tags":["#rnd","#ai","#services","#utp","#openclaw","#omniroute","#rag","#draft","#public"],"status":"draft","url":"https://notes.kazakov.xyz/rnd/ai-stack-utp/","permalink":"/rnd/ai-stack-utp/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
+{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"rnd/ai-stack-utp/","title":"Private AI Stack — Узкие УТП","date":"2026-03-16","tags":["rnd","ai","services","utp","openclaw","omniroute","rag","draft","public"],"status":"draft","url":"https://notes.kazakov.xyz/rnd/ai-stack-utp/","permalink":"/rnd/ai-stack-utp/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 

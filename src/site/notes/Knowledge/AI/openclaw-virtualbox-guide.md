@@ -1,5 +1,5 @@
 ---
-{"title":"Самый простой способ пощупать OpenClaw через VirtualBox","date":"2026-03-25","tags":["public","openclaw","virtualbox","guide","ai"],"source":"https://habr.com/ru/articles/1001992/","author":"OpenClaw_Lab","dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"ai/openclaw-virtualbox-guide/","url":"https://notes.kazakov.xyz/ai/openclaw-virtualbox-guide/","stream":"manual","capture_status":"triaged","origin":"habr/OpenClaw_Lab","permalink":"/ai/openclaw-virtualbox-guide/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
+{"title":"Самый простой способ пощупать OpenClaw через VirtualBox","date":"2026-03-25","tags":["#public","#openclaw","#virtualbox","#guide","#ai"],"source":"https://habr.com/ru/articles/1001992/","author":"OpenClaw_Lab","dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"ai/openclaw-virtualbox-guide/","url":"https://notes.kazakov.xyz/ai/openclaw-virtualbox-guide/","stream":"manual","capture_status":"triaged","origin":"habr/OpenClaw_Lab","permalink":"/ai/openclaw-virtualbox-guide/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 

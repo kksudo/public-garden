@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"ai/claude-4-6-opus-vs-sonnet/","url":"https://notes.kazakov.xyz/ai/claude-4-6-opus-vs-sonnet/","title":"Claude Opus 4.6 vs Claude Sonnet 4.6: Какую нейросеть выбрать CTO и маркетологу?","date":"2026-03-19","status":"published","tags":["ai","claude","llm","public","content-marketing","devops"],"source":"https://habr.com/ru/companies/bothub/articles/1005034/","permalink":"/ai/claude-4-6-opus-vs-sonnet/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
+{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"ai/claude-4-6-opus-vs-sonnet/","url":"https://notes.kazakov.xyz/ai/claude-4-6-opus-vs-sonnet/","title":"Claude Opus 4.6 vs Claude Sonnet 4.6: Какую нейросеть выбрать CTO и маркетологу?","date":"2026-03-19","status":"published","tags":["#ai","#claude","#llm","#public","#content-marketing","#devops"],"source":"https://habr.com/ru/companies/bothub/articles/1005034/","permalink":"/ai/claude-4-6-opus-vs-sonnet/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 

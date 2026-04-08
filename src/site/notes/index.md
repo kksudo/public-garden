@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-home":true,"title":"Kirill Kazakov — Notes","tags":["#public","#home","#gardenEntry","gardenEntry"],"url":"https://notes.kazakov.xyz/","permalink":"/index/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
+{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-home":true,"title":"Kirill Kazakov — Notes","tags":["#public","#home","gardenEntry"],"url":"https://notes.kazakov.xyz/","permalink":"/index/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 
@@ -62,10 +62,10 @@ This site is a public notebook: a mix of evergreen notes, experiments, and rough
 - 2026-03-13 [[Knowledge/Productivity/obsidian-sharing-options\|Как шарить Obsidian заметки с коллегами]]
 
 #### Other
-- 2026-03-16 [[Projects/RnD/ai-chief-of-staff-corporate-jarvis\|AI Chief of Staff — идея корпоративного Джарвиса]]
-- 2026-03-16 [[Projects/RnD/private-ai-stack-narrow-utps\|Private AI Stack — Узкие УТП]]
-- 2026-03-16 [[Projects/RnD/private-ai-stack-for-clients-draft\|Private AI Stack for Clients — Draft]]
-- 2026-03-16 [[Projects/RnD/tg-channel-to-site-migration\|TG Channel → Site Migration — Service Idea]]
+- 2026-03-16 [[Knowledge/Research/ai-chief-of-staff-corporate-jarvis\|AI Chief of Staff — идея корпоративного Джарвиса]]
+- 2026-03-16 [[Knowledge/Research/private-ai-stack-narrow-utps\|Private AI Stack — Узкие УТП]]
+- 2026-03-16 [[Knowledge/Research/private-ai-stack-for-clients-draft\|Private AI Stack for Clients — Draft]]
+- 2026-03-16 [[Knowledge/Research/tg-channel-to-site-migration\|TG Channel → Site Migration — Service Idea]]
 - 2026-03-16 [[Knowledge/legal-disclaimer\|Отказ от ответственности / Disclaimer]]
 - [[_templates/Public Note\|{{title}}]]
 

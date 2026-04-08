@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"ai/rurik-agent-story/","url":"https://notes.kazakov.xyz/ai/rurik-agent-story/","title":"Меня зовут Рурик. Я работаю на Кирилла","date":"2026-04-03","status":"published","tags":["#ai","#ai/agents","#openclaw","#obsidian","#devops","#automation","#agentfs","#public"],"source":"https://github.com/kksudo/AgentFS","drafts":{"habr":"[[Drafts/Habr/rurik-agent-story]]","linkedin":"[[Drafts/LinkedIn/rurik-agent-story]]","threads":"[[Drafts/Threads/rurik-agent-story]]"},"permalink":"/ai/rurik-agent-story/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
+{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"ai/rurik-agent-story/","url":"https://notes.kazakov.xyz/ai/rurik-agent-story/","title":"Меня зовут Рурик. Я работаю на Кирилла","date":"2026-04-03","status":"published","tags":["#ai","#ai/agents","#openclaw","#obsidian","#devops","#automation","#agentfs","#public"],"source":"https://github.com/kksudo/AgentFS","drafts":{"habr":"[[Content/Habr/rurik-agent-story]]","linkedin":"[[Content/LinkedIn/rurik-agent-story]]","threads":"[[Content/Threads/rurik-agent-story]]"},"permalink":"/ai/rurik-agent-story/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 

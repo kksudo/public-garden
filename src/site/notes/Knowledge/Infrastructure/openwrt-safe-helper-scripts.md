@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"infrastructure/openwrt-safe-helper-scripts/","url":"https://notes.kazakov.xyz/infrastructure/openwrt-safe-helper-scripts/","title":"Безопасные shell-скрипты для OpenWrt","date":"2026-03-19","status":"published","tags":["infra/openwrt","infra/router","infra/automation","content/public","public"],"source":"https://openwrt.org/","permalink":"/infrastructure/openwrt-safe-helper-scripts/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
+{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"infrastructure/openwrt-safe-helper-scripts/","url":"https://notes.kazakov.xyz/infrastructure/openwrt-safe-helper-scripts/","title":"Безопасные shell-скрипты для OpenWrt","date":"2026-03-19","status":"published","tags":["#infra/openwrt","#infra/router","#infra/automation","#content/public","#public"],"source":"https://openwrt.org/","permalink":"/infrastructure/openwrt-safe-helper-scripts/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 

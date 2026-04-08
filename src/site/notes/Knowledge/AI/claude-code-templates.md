@@ -1,5 +1,5 @@
 ---
-{"title":"Claude Code Templates: мощный фреймворк для Anthropic Claude","date":"2026-03-19","status":"published","tags":["ai","claude","development","public"],"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"ai/claude-code-templates/","url":"https://notes.kazakov.xyz/ai/claude-code-templates/","source":"https://github.com/davila7/claude-code-templates","permalink":"/ai/claude-code-templates/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
+{"title":"Claude Code Templates: мощный фреймворк для Anthropic Claude","date":"2026-03-19","status":"published","tags":["#ai","#claude","#development","#public"],"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"ai/claude-code-templates/","url":"https://notes.kazakov.xyz/ai/claude-code-templates/","source":"https://github.com/davila7/claude-code-templates","permalink":"/ai/claude-code-templates/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 

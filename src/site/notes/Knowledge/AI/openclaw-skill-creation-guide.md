@@ -1,5 +1,5 @@
 ---
-{"title":"Как создать скилл для OpenClaw","date":"2026-03-14","tags":["openclaw","скилл","разработка","инструкция"],"source":"rurik-agent","status":"published","publish":true,"dg-publish":true,"permalink":"/knowledge/ai/openclaw-skill-creation-guide/","dgPassFrontmatter":true}
+{"title":"Как создать скилл для OpenClaw","date":"2026-03-14","tags":["#openclaw","#скилл","#разработка","#инструкция"],"source":"rurik-agent","status":"published","publish":true,"dg-publish":true,"permalink":"/knowledge/ai/openclaw-skill-creation-guide/","dgPassFrontmatter":true}
 ---
 
 

@@ -7,7 +7,16 @@
 
 Статья Google DeepMind «Intelligent AI Delegation» описывает механику передачи задач агентам: кто получает задачу и на каких правах, как проверяется результат, что происходит при сбое.
 
+<iframe src="/diagrams/ai-delegation-framework.html" title="Интерактивная схема делегирования задачи AI-агенту" loading="lazy" style="width:100%;aspect-ratio:4/3;min-height:640px;border:1px solid #3333;border-radius:8px;background:#0e1117"></iframe>
+
+[Открыть схему на весь экран](/diagrams/ai-delegation-framework.html)
+
+<details>
+<summary>Статичная версия схемы (PNG)</summary>
+
 ![Жизненный цикл делегирования задачи AI-агенту: контракт, оценка готовности, уровень доступа, исполнение, валидация, fallback и журнал](/img/user/assets/diagrams/ai-delegation-framework.png)
+
+</details>
 
 Схема целиком: контракт задаёт критерий успеха, права выдаются по уровню готовности агента, результат проверяется против контракта, при сбое включается fallback и уровень доступа понижается. Всё пишется в журнал.
 

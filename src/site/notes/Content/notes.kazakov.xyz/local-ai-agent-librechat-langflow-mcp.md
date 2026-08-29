@@ -1,5 +1,5 @@
 ---
-{"title":"Собираем локального AI агента на LibreChat, Langflow и MCP","date":"2026-04-08","tags":["#ai-agents","#mcp","#docker","#langflow","#librechat","#local-llm","#infrastructure"],"stream":"manual","capture_status":"processed","origin":"clipping","dg-publish":true,"dg-permalink":"local-ai-agent-librechat-langflow-mcp","permalink":"/local-ai-agent-librechat-langflow-mcp/","dgPassFrontmatter":true}
+{"title":"Собираем локального AI агента на LibreChat, Langflow и MCP","date":"2026-04-08","tags":["ai-agents","mcp","docker","langflow","librechat","local-llm","infrastructure"],"stream":"manual","capture_status":"processed","origin":"clipping","dg-publish":true,"dg-permalink":"local-ai-agent-librechat-langflow-mcp","permalink":"/local-ai-agent-librechat-langflow-mcp/","dgPassFrontmatter":true}
 ---
 
 
@@ -391,3 +391,5 @@ docker compose logs -f app
 - MCP сервер отвечает на POST http://mcp-filesystem:8000/mcp
 - Модель в Ollama скачана и доступна
 ```
+
+*Дисклеймер / Disclaimer: material is published for informational and research purposes. [Полный отказ от ответственности / Full disclaimer](https://notes.kazakov.xyz/legal/disclaimer/).*

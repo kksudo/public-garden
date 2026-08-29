@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"ai/agent-skills-habr-notevsky/","url":"https://notes.kazakov.xyz/ai/agent-skills-habr-notevsky/","title":"Навыки агентов (Agent Skills): что это такое и почему это больше, чем «папка с промптами»","date":"2026-03-18","tags":["#ai","#agents","#skills","#llm","#architecture","#public"],"source":"https://habr.com/ru/companies/bitrix/articles/980654/","status":"published","author":"Сергей Нотевский (AI Platform Lead, Битрикс24)","permalink":"/ai/agent-skills-habr-notevsky/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
+{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"ai/agent-skills-habr-notevsky/","url":"https://notes.kazakov.xyz/ai/agent-skills-habr-notevsky/","title":"Навыки агентов (Agent Skills): что это такое и почему это больше, чем «папка с промптами»","date":"2026-03-18","tags":["ai","agents","skills","llm","architecture","public"],"source":"https://habr.com/ru/companies/bitrix/articles/980654/","status":"published","author":"Сергей Нотевский (AI Platform Lead, Битрикс24)","permalink":"/ai/agent-skills-habr-notevsky/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 

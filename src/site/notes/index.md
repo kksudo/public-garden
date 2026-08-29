@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-home":true,"title":"Kirill Kazakov — Notes","tags":["#public","#home","gardenEntry"],"url":"https://notes.kazakov.xyz/","permalink":"/index/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
+{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-home":true,"title":"Kirill Kazakov — Notes","tags":["public","home","gardenEntry"],"url":"https://notes.kazakov.xyz/","permalink":"/index/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 
@@ -39,15 +39,17 @@ This site is a public notebook: a mix of evergreen notes, experiments, and rough
 ## Browse Notes
 
 ### Recent public notes
+- 2026-05-16 [[Knowledge/Infrastructure/openwrt-router-bringup\|Первичная настройка OpenWrt-роутера]]
+- 2026-04-08 [[Content/notes.kazakov.xyz/local-ai-agent-librechat-langflow-mcp\|Собираем локального AI агента на LibreChat, Langflow и MCP]]
 - 2026-04-03 [[Knowledge/AI/rurik-agent-story\|Меня зовут Рурик. Я работаю на Кирилла]]
 - 2026-03-25 [[Knowledge/AI/openclaw-vs-cowork-ai-assistants\|OpenClaw vs Cowork: два подхода к персональному AI-ассистенту]]
 - 2026-03-25 [[Knowledge/AI/openclaw-virtualbox-guide\|Самый простой способ пощупать OpenClaw через VirtualBox]]
-- 2026-03-19 [[Knowledge/AI/claude-code-templates\|Claude Code Templates: мощный фреймворк для Anthropic Claude]]
-- 2026-03-19 [[Knowledge/AI/claude-4-6-opus-vs-sonnet\|Claude Opus 4.6 vs Claude Sonnet 4.6: Какую нейросеть выбрать CTO и маркетологу?]]
 
 ### By area
 
 #### AI
+- 2026-03-19 [[Knowledge/AI/claude-code-templates\|Claude Code Templates: мощный фреймворк для Anthropic Claude]]
+- 2026-03-19 [[Knowledge/AI/claude-4-6-opus-vs-sonnet\|Claude Opus 4.6 vs Claude Sonnet 4.6: Какую нейросеть выбрать CTO и маркетологу?]]
 - 2026-03-19 [[Knowledge/AI/langchain-deep-agents\|LangChain Deep Agents: архитектура субагентов, планирование и что из этого можно взять для code review]]
 - 2026-03-18 [[Knowledge/AI/claude-web-search-brave\|Как устроен веб-поиск в Claude — Brave Search под капотом]]
 - 2026-03-18 [[Knowledge/AI/agent-skills-habr-notevsky\|Навыки агентов (Agent Skills): что это такое и почему это больше, чем «папка с промптами»]]

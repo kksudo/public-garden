@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"ai/claude-web-search-brave/","url":"https://notes.kazakov.xyz/ai/claude-web-search-brave/","title":"Как устроен веб-поиск в Claude — Brave Search под капотом","date":"2026-03-18","tags":["#ai","#claude","#anthropic","#search","#brave","#infrastructure","#public"],"source":"https://techcrunch.com/2025/03/21/anthropic-appears-to-be-using-brave-to-power-web-searches-for-its-claude-chatbot/","status":"published","permalink":"/ai/claude-web-search-brave/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
+{"dg-publish":true,"dg-enable-search":true,"dg-show-tags":true,"dg-permalink":"ai/claude-web-search-brave/","url":"https://notes.kazakov.xyz/ai/claude-web-search-brave/","title":"Как устроен веб-поиск в Claude — Brave Search под капотом","date":"2026-03-18","tags":["ai","claude","anthropic","search","brave","infrastructure","public"],"source":"https://techcrunch.com/2025/03/21/anthropic-appears-to-be-using-brave-to-power-web-searches-for-its-claude-chatbot/","status":"published","permalink":"/ai/claude-web-search-brave/","dgEnableSearch":true,"dgShowTags":true,"dgPassFrontmatter":true}
 ---
 
 
